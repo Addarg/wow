@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My eggs</title>
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/newc.css">
+    <!-- ICONS BOXICONS -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div class="washAway"></div>
+
+    <div class="preloader">
+        <div class="progressBar">
+            <div class="progressOfProgressBar"></div>
+        </div>
+        <h4 class="questionPre"></h4>
+    </div>
+    <!-- ===== HEADER =====-->
+    <div class="kok">
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <a href="#" class="nav__logo"><img src="./assets/img/Logo.png" alt=""
+                        style="width: 29px !important;"><a>
+
+                        <div class="nav__toggle" id="nav-toggle">
+                            <i class='bx bx-menu-alt-right'></i>
+                        </div>
+
+                        <div class="nav__menu" id="nav-menu">
+                            <ul class="nav__list">
+
+
+                                <li class="nav__item"><a href="#section1" class="nav__link">About Us</a></li>
+
+                                <li class="nav__item"><a href="#section2" class="nav__link">Roadmap</a></li>
+                                <li class="nav__item"><a href="./assets/img/MYEGGS_2.pdf"
+                                        class="nav__link">WhitePaper</a></li>
+                                <li class="nav__item"><a href="#section4" class="nav__link">Mint</a></li>
+                                <li class="nav__item"><a href="whitelist.html" class="nav__link">Whitelist</a></li>
+                                <li class="nav__item"><a href="#section5" class="nav__link">FAQs</a></li>
+
+                            </ul>
+                        </div>
+
+            </nav>
+        </header>
+
+        <main>
+            <!-- ===== HOME =====-->
+            <div class="home" id="section">
+                <div class="parallax home__parallax home__parallax-img1" data-rellax-speed="-9"></div>
+                <div class="parallax home__parallax home__parallax-img2" data-rellax-speed="-7"></div>
+                <div class="parallax home__parallax home__parallax-img3" data-rellax-speed="-6"></div>
+                <div class="parallax home__parallax home__parallax-img4" data-rellax-speed="-3"></div>
+
+                <h1 class="parallax home__title" data-rellax-speed="-6">My Eggs</h1>
+                <span class="parallax home__subtitle" data-rellax-speed="-5">Premint in:</span>
+                <!-- Display the countdown timer in an element -->
+                <span class="parallax home__subtitle yo1" data-rellax-speed="-4" id="demo">To Be Announced</span>
+
+                <script>
+                    // Set the date we're counting down to
+                    var countDownDate = new Date("Jan 3, 2022 4:41:00").getTime();
+
+                    // Update the count down every 1 second
+                    var x = setInterval(function () {
+
+                        // Get today's date and time
+                        var now = new Date().getTime();
+
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate - now;
+
+                        // Time calculations for days, hours, minutes and seconds
+                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        // Display the result in the element with id="demo"
+                        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                            + minutes + "m " + seconds + "s ";
+
+                        // If the count down is finished, write some text
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("demo").innerHTML = "EXPIRED";
+                        }
+                    }, 1000);
+                </script>
+
+                <div class="home__scroll">
+                    <a href="#section1"><i class='bx bx-mouse'></i></a>
+                </div>
+            </div>
+
+            <!-- ===== SECTION =====-->
+
+            <section class="j-section" id="section1">
+                <div class="section">
+                    
+                    <div class="section__data">
+                        <div data-aos="fade-up">
+                            <h2 class="section__title">World of Wizards </h2>
+                        </div>
+                        <p class="section__text">999 Cunning Wizards battling it out in Galandria!  P2E Questing / PVP Battles / $SPELL Passive Income!</p>
+
+                        <div class="button">
+                            <button type="button" class="btn btn-primary"><a
+                                    href="https://discord.gg/zJEYCFH5">Discord</a></button>
+                            <button type="button" class="btn btn-primary"><a
+                                    href="https://twitter.com/MyEggsNFT">Twitter</a></button>
+                        </div>
+                    </div>
+
+                    <img src="./assets/img/SPOILER_test35.gif" alt="lol" class="section__img">
+                </div>
+
+                <div class="container">
+                    <h1 class="k">Our Team</h1>
+                    <div class="profiles">
+                        <div class="profile">
+                            <img src="./assets/img/0.png" class="profile-img">
+
+                            <h3 class="user-name">Addarg7</h3>
+                            <h5>Frontend Developer</h5>
+
+                        </div>
+                        <div class="profile">
+                            <img src="./assets/img/11.png" class="profile-img">
+
+                            <h3 class="user-name">John Gribble</h3>
+                            <h5>Operations and Outreach Director</h5>
+
+                        </div>
+                        <div class="profile">
+                            <img src="./assets/img/13.png" class="profile-img">
+
+                            <h3 class="user-name">Princess Delina</h3>
+                            <h5>Pixel Artist
+                                2D Animator</h5>
+
+                        </div>
+                    </div>
+                    <div class="profiles">
+                        <div class="profile">
+                            <img src="./assets/img/55.png" class="profile-img">
+
+                            <h3 class="user-name">Daryl-“Warlock”</h3>
+                            <h5>Project Manager</h5>
+
+                        </div>
+                        <div class="profile">
+                            <img src="./assets/img/7.png" class="profile-img">
+
+                            <h3 class="user-name">ShadowDev</h3>
+                            <h5>Backend Dev</h5>
+
+                        </div>
+                        <div class="profile">
+                            <img src="./assets/img/Boycope.3d4b5f34.jpg" class="profile-img">
+
+                            <h3 class="user-name">BoyCope</h3>
+                            <h5>Co-Founder</h5>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <h1 class="k">Gallery</h1>
+            <div class="gallery">
+
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="./assets/img/0.png" style="width:50%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="./assets/img/11.png" style="width:50%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="./assets/img/13.png" style="width:50%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="./assets/img/4.png" style="width:50%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="./assets/img/40.png" style="width:50%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="./assets/img/55.png" style="width:50%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="./assets/img/7.png" style="width:50%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img src="./assets/img/70.png" style="width:50%">
+                    </div>
+                    <div class="bu">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    </div>
+                </div>
+                <span class="dot" onlick="currentSlides(1)"></span>
+                <span class="dot" onlick="currentSlides(2)"></span>
+                <span class="dot" onlick="currentSlides(3)"></span>
+                <span class="dot" onlick="currentSlides(4)"></span>
+                <span class="dot" onlick="currentSlides(5)"></span>
+                <span class="dot" onlick="currentSlides(6)"></span>
+                <span class="dot" onlick="currentSlides(7)"></span>
+                <span class="dot" onlick="currentSlides(8)"></span>
+            </div>
+
+            <section id="home-roadmap" class="section-home-roadmap">
+                <div class="page-padding">
+                    <div class="container-large">
+                        <div class="padding-top padding-huge ">
+                            <div class="title-wrapper">
+                                <div class="sub-heading-wrapper">
+                                    <div class="sub-heading-number">04</div>
+                                    <div class="sub-heading-line"></div>
+                                    <div class="sub-heading">ROADMAP</div>
+                                </div>
+                                <div class="margin-top margin-small">
+                                    <h3 class="heading-large">The Bored Zombie Yacht Club</h3>
+                                </div>
+                                <div class="margin-top margin-small">
+                                    <p class="max-width-medium">We have an amazing linear roadmap and plans for the
+                                        future not just for this year but we are planning to transition smoothly into
+                                        2023 and beyond! - we are here and we are here to stay!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline_component">
+                            <div class="timeline_progress">
+                                <div class="timeline_progress-bar"></div>
+                            </div>
+                            <div data-w-id="41b821ea-eb4f-9104-fbbc-2723b43d4415" class="timeline_item">
+                                <div id="w-node-_41b821ea-eb4f-9104-fbbc-2723b43d4416-e4cfd6cc" class="timeline_left">
+                                    <div class="timeline_date-text">Phase 1</div>
+                                </div>
+                                <div id="w-node-_41b821ea-eb4f-9104-fbbc-2723b43d4419-e4cfd6cc" class="timeline_centre">
+                                    <div class="timeline_circle"></div>
+                                </div>
+                                <div id="w-node-_41b821ea-eb4f-9104-fbbc-2723b43d441b-e4cfd6cc" class="timeline_right">
+                                    <div class="margin-top margin-small">
+                                        <div class="timeline_text animated-p">Fresh launch with a group of developers,
+                                            marketers and business advisors simultaneously drawing up initial plans and
+                                            ideas to bridge the gap between celebrities and fans with our project thus
+                                            constructing utility that our NFTs hold and also at the same time garnering
+                                            exclusivity.<br>Brand partnerships shall develop to take this into the next
+                                            realm - planting a lot of our money into prizes for those whom mint specific
+                                            Zombies, you could receive a Signed Collectible, Electronic, Car or even a
+                                            Rolex if you're really lucky! - we're trying to do as much as we can to
+                                            compete for the number one spot on Solsea!<br></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-w-id="41b821ea-eb4f-9104-fbbc-2723b43d4431" class="timeline_item">
+                                <div id="w-node-_41b821ea-eb4f-9104-fbbc-2723b43d4432-e4cfd6cc" class="timeline_left">
+                                    <div class="timeline_date-text">Phase 2</div>
+                                </div>
+                                <div id="w-node-_41b821ea-eb4f-9104-fbbc-2723b43d4435-e4cfd6cc" class="timeline_centre">
+                                    <div class="timeline_circle"></div>
+                                </div>
+                                <div class="timeline_right">
+                                    <div class="margin-top margin-small">
+                                        <div class="timeline_text animated-p">
+                                            We see many projects try to attempt a very intricate pre-sale however with
+                                            BZYC we plan to giveaway white-list spots to active and deserving community
+                                            members | After the private sale we will post the public sale where the rest
+                                            of the Discord will have a chance to mint 6 Zombies per wallet (bear in mind
+                                            there are only 6666 zombies!)
+                                            <br>BZYC goes live on Solsea, 35% royalties back to community in rewards +
+                                            including a lot of incentives and a myriad of rewards. Initial giveaway will
+                                            include $1,000,000 dispersed to the holders through rewards that come along
+                                            with certain NFTs and a extra $365,000 that will be given through a daily
+                                            $1000 giveaway! - aims of starting groundwork on the distribution of land to
+                                            exclusive owners of Bored Zombies.<br>
+                                            <br>The onboarding of top celebrities will begin and plans to overtake the
+                                            Solana NFT World will start to begin (this is expanded in Phase 3)
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-w-id="41b821ea-eb4f-9104-fbbc-2723b43d444c" class="timeline_item">
+                                <div id="w-node-_41b821ea-eb4f-9104-fbbc-2723b43d444d-e4cfd6cc" class="timeline_left">
+                                    <div class="timeline_date-text">PHASE 3</div>
+                                </div>
+                                <div id="w-node-_41b821ea-eb4f-9104-fbbc-2723b43d4450-e4cfd6cc" class="timeline_centre">
+                                    <div class="timeline_circle"></div>
+                                </div>
+                                <div class="timeline_right">
+                                    <div class="margin-top margin-small">
+                                        <div class="timeline_text animated-p">
+                                            Launch of the BZYC own Metaverse World (this has been a fundamental idea
+                                            from the initial conceptions of this project) also introducing the framework
+                                            for a App that will be available to both Apple & Android users to interact
+                                            with each other on the Yacht and owners of the App will recieve exclusive
+                                            news, invitations to events and more (club exclusive).
+
+                                            <br>Project fund wallet will be continuously used to cover expenditures of
+                                            the project ensuring it's longevity and it's transition into 2023 and
+                                            beyond. We will continue purchasing land in the Metaverse, developing
+                                            exclusive deals with artists, celebrities and influencers. We will also
+                                            expand onto other NFTs and expand the company whilst solidifying the
+                                            exclusivity of our Bored Zombies and cement it's monumental contribution not
+                                            just in the realm of NFTs but for the Metaverse and the Solana
+                                            Blockchain.<br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-w-id="41b821ea-eb4f-9104-fbbc-2723b43d4481" class="timeline_item">
+                                <div id="w-node-_41b821ea-eb4f-9104-fbbc-2723b43d4482-e4cfd6cc" class="timeline_left">
+                                    <div class="timeline_date-text">Phase 4</div>
+                                </div>
+                                <div id="w-node-_41b821ea-eb4f-9104-fbbc-2723b43d4485-e4cfd6cc" class="timeline_centre">
+                                    <div class="timeline_circle"></div>
+                                </div>
+                                <div class="timeline_right">
+                                    <div class="margin-top margin-small">
+                                        <div class="timeline_text animated-p">Towards the fall of 2022 we will announce
+                                            our new animated series - which will come into fruition mid 2023. We have
+                                            already contacted and established networks with a animation studio where
+                                            your Zombies will come to life in a animated series! -> During this point we
+                                            will have already sold out all Zombies and the exclusive owners of the
+                                            Zombies will get a chance to voice their own Zombies (we at this point plan
+                                            to work with celebrities and major influencers!) Bored Zombies Yacht Club is
+                                            here to stay and is giving an equal opportunity to all those who wish to
+                                            join us on this journey, we are here and we are here to stay</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="section5">
+                <div class="lol">
+                    <h1 class="k">FAQs</h1>
+                    <div class="accordion">
+                        <p class="title">When's the drop?</p>
+                        <span class="show">+</span>
+                    </div>
+                    <div class="info">
+                        <p>TBA.
+                        </p>
+                    </div>
+                    <div class="accordion">
+
+                        <p class="title">Is MyEggs a generative art project?</p>
+                        <span class="show">+</span>
+                    </div>
+                    <div class="info">
+                        <p>Yes, formulating in an NFT Collectors game.
+                        </p>
+                    </div>
+                    <div class="accordion">
+                        <p class="title">What do I get when I buy a MyEggs NFT?</p>
+                        <span class="show">+</span>
+                    </div>
+                    <div class="info">
+                        <p>Think of our NFT’s as keys or memberships to our universe. As a member of this universe, you
+                            will get access to community rewards and drops, ETH giveaways, exclusive NFT content, beta
+                            access to our game, and more.
+                        </p>
+                    </div>
+                    <div class="accordion">
+                        <p class="title">Is MyEggs a game or a community?</p>
+                        <span class="show">+</span>
+                    </div>
+                    <div class="info">
+                        <p>It’s both. By owning a MyEggs NFT you get early bird perks!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    <!-- RELLAX JS -->
+    <script src="./assets/js/rellax.min.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN JS -->
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61f19264b462b6f14bcfd6c9"
+        type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/webflow.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/preloader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+</body>
+
+</html>

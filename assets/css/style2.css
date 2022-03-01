@@ -1,0 +1,200 @@
+
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+.Image{
+    object-fit: cover;
+    height: 150vh;
+    position: absolute;
+   
+}
+.whitelist {
+   height: 80vh;
+    position: relative;
+margin: 3rem;;
+    width:80%;
+border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0e131b;
+    opacity: .9;
+  margin-left:11%;
+  padding: 550px 50px;
+  border-radius: 5px;
+  }
+  .whitelist .container {
+    width: 100%;
+    
+    padding: 20px 80px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: #18212e;
+    border-radius: 8px;
+    margin-bottom: -10px;
+  }
+  .form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .form-group label{
+    color: white !important;
+    font-weight: 500 !important;
+  }
+  
+  .form-group input{
+    margin-top: .85rem !important;
+    margin-bottom: 1.5rem !important;
+    border-radius: .2rem;
+    padding: 0px 15px !important;
+    outline: none;
+    border: none;
+    font-weight: 200 !important;
+    background: #1e2835;
+    color: white !important;
+  }
+  
+  .form-group input::placeholder{
+    color: rgba(255, 255, 255, 0.322);
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    height: 60px;
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-top: 5px;
+  }
+  
+  .submitButtonForm{
+    margin-top: 4rem !important;
+    border-radius: .1rem !important;
+    background: #415774 !important;
+    color: white !important;
+    margin-bottom: 2rem;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  button[type="submit"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: "Poppins";
+    color: rgb(56, 0, 14);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease background-color;
+    font-family: 'Poppins', sans-serif;
+  }
+  button[type="submit"]:hover {
+    background-color: var(--first-color);
+    color: #fff;
+  }
+  #status {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  #status.success {
+    background-color: rgb(211, 250, 153);
+    animation: status 4s ease forwards;
+  }
+  #status.error {
+    background-color: rgb(250, 129, 92);
+    color: white;
+    animation: status 4s ease forwards;
+  }
+  @keyframes status {
+    0% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    90% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    100% {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+  
+  .whitelist-text h2{
+    color: #f0f0f0 !important;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+  }
+  .whitelist-text h4 {
+    color: var(--white-color);
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+  
+  .instruction{
+    color:rgb(111, 193, 215);
+    font-size:2rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:4rem;
+    margin-right:4rem;
+    margin-top: -2rem;;
+  }
+  
+  .sub-i{
+    color:rgb(157, 164, 167);
+    font-size:1.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-1rem;
+    margin-bottom:2rem;
+  }
+  
+  .whitelist-text .first{
+    margin-top: -3.5rem !important;
+    margin-bottom: 4rem;
+    color: #adadad;
+  }
+  
+  .whitelist-text .last{
+    margin-bottom: 6rem;
+  }
+  @media(max-width:500px){
+    .whitelist{
+      zoom:50%;
+    }
+  }
+  @media(max-width:1000px){
+    .whitelist{
+      zoom:80%
+    }
+  }
+  @media(max-width:800px){
+    .whitelist{
+      zoom:60%;
+    }
+  }
+  @media(max-width:400px){
+    .whitelist{
+      zoom:35%;
+    }
+  }
