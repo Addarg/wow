@@ -8,7 +8,7 @@
 [class^="w-icon-"],
 [class*=" w-icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'webflow-icons' !important;
+    font-family: 'VT323' !important;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -59,7 +59,7 @@ body {
     margin: 0;
     min-height: 100%;
     background-color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: 'VT323';
     font-size: 14px;
     line-height: 20px;
     color: #333;
@@ -916,7 +916,7 @@ textarea.w-select {
     line-height: 12px;
     text-align: center;
     color: #999;
-    font-family: serif;
+    font-family: 'VT323';
 }
 
 .w-widget-twitter-count-shim .w-widget-twitter-count-clear {
@@ -1297,6 +1297,7 @@ textarea.w-select {
     }
 }
 
+
 /**
  * ## Note
  * Safari (on both iOS and OS X) does not handle viewport units (vh, vw) well.
@@ -1304,6 +1305,7 @@ textarea.w-select {
  * have any dimensions expressed in viewport units. It also doesn’t handle them at
  * all in `calc()`.
  */
+
 
 /**
  * Wrapper around all lightbox elements
@@ -1316,7 +1318,7 @@ textarea.w-select {
 .w-lightbox-backdrop {
     color: #000;
     cursor: auto;
-    font-family: serif;
+    font-family: 'VT323';
     font-size: medium;
     font-style: normal;
     font-variant: normal;
@@ -1339,7 +1341,7 @@ textarea.w-select {
     bottom: 0;
     left: 0;
     color: #fff;
-    font-family: "Helvetica Neue", Helvetica, Ubuntu, "Segoe UI", Verdana, sans-serif;
+    font-family: 'VT323';
     font-size: 17px;
     line-height: 1.2;
     font-weight: 300;
@@ -1356,6 +1358,7 @@ textarea.w-select {
     -webkit-transform: translate(0, 0);
     /* 2 */
 }
+
 
 /**
  * Neat trick to bind the rubberband effect to our canvas instead of the whole
@@ -1387,6 +1390,7 @@ textarea.w-select {
     height: 100vh;
 }
 
+
 /* .w-lightbox-content */
 
 .w-lightbox-group,
@@ -1400,6 +1404,7 @@ textarea.w-select {
     display: inline-block;
     vertical-align: middle;
 }
+
 
 /*
  * 1. Remove default margin set by user-agent on the <figure> element.
@@ -1415,6 +1420,7 @@ textarea.w-select {
     cursor: pointer;
 }
 
+
 /**
  * IE adds image dimensions as width and height attributes on the IMG tag,
  * but we need both width and height to be set to auto to enable scaling.
@@ -1425,6 +1431,7 @@ textarea.w-select {
     height: auto;
     max-width: none;
 }
+
 
 /**
  * 1. Reset if style is set by user on "All Images"
@@ -1493,6 +1500,7 @@ textarea.w-select {
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii00IDAgMjQgNDAiIHdpZHRoPSIyNCIgaGVpZ2h0PSI0MCI+PGcgdHJhbnNmb3JtPSJyb3RhdGUoNDUpIj48cGF0aCBkPSJtMC0waDI4djI4aC01di0yM2gtMjN6IiBvcGFjaXR5PSIuNCIvPjxwYXRoIGQ9Im0xIDFoMjZ2MjZoLTN2LTIzaC0yM3oiIGZpbGw9IiNmZmYiLz48L2c+PC9zdmc+");
 }
 
+
 /*
  * Without specifying the with and height inside the SVG, all versions of IE render the icon too small.
  * The bug does not seem to manifest itself if the elements are tall enough such as the above arrows.
@@ -1506,6 +1514,7 @@ textarea.w-select {
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii00IDAgMTggMTciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyI+PGcgdHJhbnNmb3JtPSJyb3RhdGUoNDUpIj48cGF0aCBkPSJtMCAwaDd2LTdoNXY3aDd2NWgtN3Y3aC01di03aC03eiIgb3BhY2l0eT0iLjQiLz48cGF0aCBkPSJtMSAxaDd2LTdoM3Y3aDd2M2gtN3Y3aC0zdi03aC03eiIgZmlsbD0iI2ZmZiIvPjwvZz48L3N2Zz4=");
     background-size: 18px;
 }
+
 
 /**
  * 1. All IE versions add extra space at the bottom without this.
@@ -1523,6 +1532,7 @@ textarea.w-select {
     overflow-x: auto;
     overflow-y: hidden;
 }
+
 
 /*
  * 1. We use content-box to avoid having to do `width: calc(10vh + 2vw)`
@@ -1576,6 +1586,7 @@ textarea.w-select {
     transform: translate(-50%, 0);
 }
 
+
 /*
  * Spinner
  *
@@ -1609,6 +1620,7 @@ textarea.w-select {
     border-bottom-color: #fff;
     border-radius: 50%;
 }
+
 
 /*
  * Utility classes

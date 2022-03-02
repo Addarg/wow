@@ -1,5 +1,3 @@
-
-
 .heading-medium {
     font-size: 2rem;
     line-height: 1.2;
@@ -447,8 +445,6 @@
     margin-left: auto;
 }
 
-
-
 .margin-tiny {
     margin: 0.125rem;
 }
@@ -716,7 +712,6 @@
 .section-home-roadmap {
     position: relative;
     z-index: 10;
-   
 }
 
 .section-home-team {
@@ -858,7 +853,6 @@
     letter-spacing: 0.1rem;
     text-transform: uppercase;
 }
-
 
 .line-vertical-top {
     position: absolute;
@@ -1371,10 +1365,10 @@
     position: sticky;
     top: 50vh;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     line-height: 1.2;
-    font-weight: 800;
-    letter-spacing: -0.03em;
+    font-weight: 100;
+    letter-spacing: +0.03em;
 }
 
 .highlight-span {
@@ -1408,7 +1402,7 @@
 
 .timeline_text {
     position: relative;
-    font-size: 0.875rem;
+    font-size: 1.4rem;
 }
 
 .timeline_progress {
@@ -4526,44 +4520,4 @@
 .mint-info>#w-node-c0151f65-96cd-b345-0a6b-4b97da2bf156-e4cfd6cc {
     -ms-grid-row: 1;
     -ms-grid-column: 5;
-}
-
-@font-face {
-    font-family: 'Montserrat Custom';
-    src: url('../fonts/montserrat-v21-latin-800.woff2') format('woff2');
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Montserrat Custom';
-    src: url('../fonts/montserrat-v21-latin-600.woff2') format('woff2');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Montserrat Custom';
-    src: url('../fonts/montserrat-v21-latin-200.woff2') format('woff2');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Montserrat Custom';
-    src: url('../fonts/montserrat-v21-latin-regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Montserrat Custom';
-    src: url('../fonts/montserrat-v21-latin-700.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
 }
