@@ -9,7 +9,10 @@
 
 
 /*=== Colores ===*/
-
+.bigger{
+    width:100%;
+    margin-top:-11%;
+}
 :root {
     --first-color: #0396A6;
     --dark-color: #000;
@@ -25,7 +28,10 @@
     --h2-font-size: 1.5rem;
     --normal-font-size: 0.938rem;
 }
-
+@font-face {
+    font-family: moody;
+    src: url(../creeper_pixel.ttf);
+}
 @media screen and (min-width: 768px) {
      :root {
         --biggest-font-size: 7rem;
@@ -191,7 +197,7 @@ img {
 }
 
 .home__parallax-img1 {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn.discordapp.com/attachments/947875785107177472/948306450151768064/bg.png);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://i.redd.it/ivjjhfrpk5051.png);
     background-repeat: repeat;
     z-index: var(--z-normal);
 }
@@ -213,6 +219,7 @@ img {
     top: 32%;
     font-size: var(--biggest-font-size);
     z-index: var(--z-normal);
+    font-family: moody !important;
 }
 
 .home__subtitle {
@@ -279,8 +286,9 @@ img {
 }
 
 .section__title {
+    
     font-size: var(--h2-font-size);
-    color: var(--first-color);
+    color: #9F92D3;
     margin-bottom: 1rem;
     margin-left: 1.5rem;
     opacity: 1 !important;
@@ -357,14 +365,14 @@ img {
 
 body {
     color: white !important;
-    background-color: #434355;
+    background-color: #5D557B;
     font-family: 'VT323';
 }
 
 .container {
     margin: 20px 20px;
     color: white;
-    margin-top: -2rem;
+    margin-top: 5.3rem;
     ;
 }
 
@@ -874,7 +882,7 @@ body {
 }
 
 .button .btn {
-    background-color: #0396A6;
+    background-color: #9F92D3;
     /* Green */
     border: none;
     color: white;
@@ -896,4 +904,71 @@ body {
 .btn a {
     text-decoration: none;
     color: #fff;
+}
+
+.team69{
+    width:100%;
+    padding: 100px 5px;
+}
+
+.content56{
+    display: flex;
+
+    align-items: center ;
+    justify-content: center;
+
+}
+.m5{
+    margin-top: -10rem !important;
+}
+
+.marg99{
+    margin-left:5rem;
+}
+.card88{
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative;
+    backface-visibility: hidden;
+    transition: all 0.5s !important;
+ margin-bottom: 6px;
+}
+.boxLOL{
+    transform: perspective(600px) rotateY(0deg);
+    transition: all 0.5s !important;
+}
+
+h5{
+    font-size: 1rem;
+}
+.info99{
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #9F92D3;
+    color: white;
+    margin: 2px;
+    text-align: center;
+    padding:22% 0;
+    transform: perspective(600px) rotateY(180deg);
+    transition: all 0.5s !important;
+}
+
+.card88:hover .boxLOL{
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card88:hover .info99{
+    transform: perspective(600px) rotateY(0deg);
+}
+
+@media  screen and (max-width:600px) {
+    .content56{
+        flex-direction: column !important;
+        justify-content: center;
+        margin-left: 4%;
+    }
+  
 }

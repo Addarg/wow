@@ -16,7 +16,7 @@ function preloaderFunc() {
 }
 
 let questionElement = document.querySelector(".questionPre")
-var question = ['Sit Tight, You are about to see something great!', 'Your Eggs are Waiting!', 'Hope you enjoy your journey with us!', 'Welcome to the world of the Eggs!']
+var question = ['Sit Tight, You are about to see something great!',  'Hope you enjoy your journey with us!', ]
 
 
 randomQuestion =  question[Math.floor(Math.random() * question.length)];
